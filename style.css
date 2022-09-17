@@ -1,0 +1,194 @@
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font: 1em;
+}
+body{
+    background-color: #eee;
+    display: auto;
+}
+
+/*___________________________________________*/
+
+.menu{
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    height: 60px;
+}
+
+.my img{
+    width: 10px; height: 10px;
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
+.menu #logo {
+    float: left;
+    height: 30px;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    line-height: 30px;
+    display: none;
+}
+
+.menu > ul{
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style-type: none;
+}
+
+.menu > ul > li {
+    float: left;
+}
+
+.menu-item{
+    display: inline-block;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-item:hover{
+    background-color: #ff0055;
+    color: black;
+}
+
+/*____________________STYLING SUB_______________________*/
+
+.sub-content {
+    position: absolute;
+    top:60px ;
+    overflow: hidden;
+    background-color: #333;
+    max-height: 0;
+}
+
+.sub-content a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sub-drop{
+    padding: 0;
+}
+
+.sub-drop ul{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style-type:none ;
+}
+
+.sub-drop ul li a {
+display: inline-block;
+padding: 10px 20px;
+}
+
+.sub-drop ul li:hover {
+    background-color: #ff0055;
+}
+
+.sub-drop ul li a:hover{
+    color: black;
+}
+
+/*____________________ Controling_______________________*/
+
+.menu-item:focus{
+    background-color: #ff0055;
+}
+
+.menu ul li:hover  .sub-content{
+    max-height: 400px;
+    transition: max-height 1s ease-in;
+    ~webkit-transition: max-height 1s ease-in;
+    ~   moz-transition: max-height 1s ease-in;
+}
+
+#rmenu{
+    float: right;
+}
+
+/*__________________clothes men______________________*/
+
+/*#img1{
+    padding: 15px 15px;
+    background-color: #130c0c;
+}
+
+#img2{
+
+    padding: 15px 15px;
+    background-color: #130c0c;
+    width: 300px;
+    height: 250px;
+}
+
+#img3{
+    padding: 15px 15px;
+    background-color: #130c0c;
+    width: 300px;
+    height: 250px;
+}
+
+#img4{
+    padding: 15px 15px;
+    background-color: #130c0c;
+    width: 300px;
+    height: 250px;
+}
+
+.img1{
+    margin-left: 0px;
+    width: 270px;
+    border: 1px solid red;
+
+}
+.img2{
+    width: 330px;
+    margin-left: 300px;
+    margin-top: 10px;
+    border: 1px solid red;
+}
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+
+.img{
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.img img{
+    height: 25%;
+    border: 10px solid black;
+}
+/*
+.img2{
+    width: 25%;
+    float: left;
+    margin-left: 30px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.img2 img2 {
+    height: 25%;
+    border: 10px solid black;
+}*/
+
+/*__________________clothes women______________________*/
+
